@@ -1,0 +1,15 @@
+* {
+  margin: 0; }
+
+html {
+  background-color: black;
+  font-family: 'Roboto', sans-serif; }
+
+#vid_wrapper {
+  height: auto;
+  width: auto; }
+
+iframe {
+  border-style: none;
+  height: 100vh;
+  width: 100vw; }
