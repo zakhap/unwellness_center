@@ -11,5 +11,27 @@ html {
 
 iframe {
   border-style: none;
-  height: 100vh;
-  width: 100vw; }
+  height: 80vh;
+  width: 100vw;
+  margin-top: 20px; }
+
+#text {
+  color: grey;
+  margin-bottom: 100px;
+  border-bottom: 2px solid grey; }
+  #text h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 20px 8vw;
+    padding: 10px 0;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey; }
+  #text h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 20px 8vw;
+    padding: 10px 0;
+    border-bottom: 2px solid grey; }
+  #text p {
+    font-size: 1.25em;
+    margin: 20px 8vw; }
