@@ -17,13 +17,18 @@ iframe {
     height: 80vh;
     width: 100vw;
     margin-top: 20px;
+
+    @media only screen and (max-width: 660px) {
+        height: 40vh;
+        margin-top: 25px;
+    }
 }
 
 
 #text {
     color: grey;
     margin-bottom: 100px;
-    
+
     border-bottom: 2px solid grey;
 
 
