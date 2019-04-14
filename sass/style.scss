@@ -27,9 +27,8 @@ iframe {
 
 #text {
     color: grey;
-    margin-bottom: 100px;
 
-    border-bottom: 2px solid grey;
+    // border-bottom: 2px solid grey;
 
 
     h1 {
@@ -56,5 +55,51 @@ iframe {
     p {
         font-size: 1.25em;
         margin: 20px 8vw;
+    }
+}
+
+#events {
+    color: grey;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+
+    border-bottom: 2px solid grey;
+
+    h1 {
+        font-size: 3em;
+        text-align: center;
+        margin: 20px 8vw;
+
+        padding: 10px 0;
+        border-bottom: 2px solid grey;
+        border-top: 2px solid grey;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        text-align: left;
+        margin: 20px 8vw;
+
+        padding: 10px 0;
+        // border-bottom: 2px solid grey;
+    }
+
+    ul {
+        font-size: 1.25em;
+        margin: 20px 8vw;
+        text-align: left;
+        list-style: none;
+    }
+
+    li {
+        margin: 12px 0;
+        border-bottom: 2px dashed grey;
+
+    }
+
+    a {
+        color: grey;
+        text-decoration: none;
     }
 }
